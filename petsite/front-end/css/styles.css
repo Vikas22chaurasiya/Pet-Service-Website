@@ -1,0 +1,890 @@
+
+body {
+  font-size: 16px;
+  color:black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+  
+  
+}
+
+.categories{
+  margin-left: 5%;
+}
+
+/**order confirm*/
+
+.confirm-order{
+  margin-top: 30px;
+}
+/***hover description***/
+
+.food-detail i{
+  font-size: medium;
+  color: #000;
+  margin-right: 30%;
+
+}
+
+dfn {
+
+  padding: 0 0.4em;
+  cursor:help;
+  font-style: normal;
+  position: relative;
+  width: 20px;
+  
+}
+dfn::after {
+  content: attr(data-info);
+  display: inline; 
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  width: 230px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5em;
+  padding: 0.5em 0.8em;
+  background:white;
+  color: black;
+  transition: opacity 250ms, top 250ms;
+  border: 1px solid black;
+}
+
+
+dfn:hover 
+ {z-index: 2;} /*Keeps the info boxes on top of other elements */
+
+dfn:hover::after
+{opacity: 1;}
+
+dfn:hover::after {top: -5px;} 
+
+
+.homedes span{
+  color: red;
+}
+
+
+/**icons**/
+
+i{
+  font-size:xxx-large;
+  color: orangered;
+  padding-left: 30%;
+  
+}
+
+.box-plans i{
+  font-size:xxx-large;
+  color: orangered;
+  padding: 0;
+  margin-bottom: 5px;
+
+}
+
+.panel-footer i{
+  font-size: x-large;
+  color: white;
+  padding: 0;
+}
+
+
+/**slide**/
+
+#myCarousel{
+
+margin-left: 8%;
+margin-right: 8%;
+margin-top: 50px;
+margin-bottom: 50px;
+border: 2px solid black;
+height: 600px;
+width: 84%;
+
+
+
+
+}
+
+
+
+/***feedback form**/
+
+.feedback{
+  background-color: white;
+}
+
+/**search bar*/
+
+
+
+.navbar-form{
+  padding-top: 200px;
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: powderblue;
+  border-radius: 0;
+  border: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+
+
+
+.container{
+  
+  padding-left: 0;
+  margin-left: 10px;
+  margin-right: 0;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+#logo-img {
+   background: url('../image/logo.png') no-repeat; 
+  width: 100px;
+  height: 100px;
+   margin-right: 15px;
+   margin-bottom: 5px;
+   margin-top: 5px;
+}
+
+/*jumbatron*/
+
+.petfood{
+  margin-top: 0;
+  margin-right: 0;
+  height: 450px;
+}
+.petdes{
+  float: left;
+  width:65.5%;
+  height:100%;
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 50px;
+
+}
+
+.petdes h3{
+  padding-top: 80px;
+  color:#000;
+  text-align: center;
+}
+
+.petdes p{
+  color: #000;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.petimage{
+  float: left;
+  width: 34.5%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color:white;
+
+}
+
+.petimage img
+{
+width: 100%;
+height: 100%;
+
+}
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------*/
+
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { 
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+   background: #E7E7E7; 
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/*FOOTER*/
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  border-top: 0;
+
+}
+
+.panel-footer div.row{
+  margin-bottom: 35px;
+}
+
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+
+
+.company{
+   /* background: url('../image/about_img.png') no-repeat;  */
+  background-position:left;
+  background-color: white;
+  /* height: 640px; */
+  height: 100%;
+  position: relative;
+  width: 45%;
+
+}
+
+.company img{
+  position:absolute;
+  top:9%;
+}
+
+.companydes{
+  /* position: absolute; */
+  width: 55%;
+  /* right: 5%;
+  top:30%; */
+  height: 100%;
+  float: right;
+  padding-top: 5%;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+
+.companydes h3{
+  font-size:xx-large;
+  color: red;
+  text-align: left;
+  
+}
+
+.companydes a{
+  margin-left: -1px;
+}
+
+.companydes p{
+  font-size: larger;
+  text-indent: 3px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.companydes span{
+  color: black;
+}
+
+ .row{
+  height: 530px;
+  margin-right: 0;
+}
+
+/**petfood row*/
+
+.petfood .petdes h3{
+  font-size:xx-large;
+  color: red;
+}
+
+.petfood .petdes span{
+  color: #000;
+}
+
+.petdes p{
+  font-size: larger;
+  text-indent: 3px;
+  font-weight: 500;
+
+}
+
+.petdes a img{
+  transition: transform .3s ease-in-out;
+
+}
+
+.petdes a img:hover{
+  transform: rotate(30deg);
+}
+
+.petdes .amount{
+  font-size:xx-large;
+  text-align: center;
+}
+
+.petdes a{
+  align-content: center;
+  margin: 35%;
+}
+
+
+
+
+/*-------------------------------------------*/
+
+
+#menu-tile,#tips-tile, #specials-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover,#tips-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url('../image/food.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#specials-tile {
+  background: url('../image/accessory.jpeg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#tips-tile{
+  background: url('../image/helpful.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+
+}
+
+#home-tiles{
+  padding: 15px;
+  background-color: white;
+  height: 300px;
+  
+
+}
+
+#menu-tile span, #specials-tile span ,#tips-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+  
+}
+
+
+
+/* services*/
+
+.services
+{
+  padding-top: 150px;
+  background-color: white;
+  height: 850px;
+}
+
+ .box{
+   float: left;
+   margin-left: 4%;
+   margin-right: 5%;
+   margin-bottom: 5%;
+   margin-top: 5%;
+   padding: 3% 3% 3%;
+   width: 23%;
+   height: 200px;
+   background-color:#eee;
+   border-radius: 50% 15%;
+   transition-property: border-radius;
+   transition-duration: .5s;
+   
+   
+ }
+
+ .box:hover{
+  
+   border-radius: 0;
+ }
+
+ .box-container{
+   padding-left: 5%;
+ }
+ 
+ h3{
+   text-align: center;
+   font-weight: bold;
+   margin-bottom: 35px;
+ }
+
+ 
+.button {
+ 
+  margin-top: 1rem;
+  padding: .9rem 2.8rem;
+  margin-left: 4.2rem;
+  border-radius: 5rem;
+  border-top-left-radius: 0;
+  border: 0.2rem solid #130f40;
+  cursor: pointer;
+  background: none;
+  color: #130f40;
+  font-size: 1.7rem;
+  overflow: hidden;
+  position: relative;
+  transition-property: background-color;
+  transition-duration: .5s;
+  
+}
+
+
+
+.button:hover {
+  color: #fff;
+  background-color:grey;
+  text-decoration:none;
+}
+ 
+
+/*plans*/
+.plans{
+  background-color: white;
+  height: 750px;
+  padding-top: 100px;
+}
+
+.box-plans{
+  float: left;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  padding: 3% 3% 3%;
+  width: 25%;
+  height: 400px;
+  background-color:#eee;
+  border-radius: 5%;
+
+  
+}
+
+.box-plans p{
+  font-size: small;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-plans p span{
+  color: red;
+}
+
+.box-plans .title{
+  color: red;
+  font-size:large;
+  text-align: center;
+}
+
+.box-plans .day{
+  text-align: center;
+}
+
+.box-plans .amount{
+  margin-bottom: 15px;
+}
+
+.plans h1,.services h1{
+  color: #000;
+  margin: 0;
+  font-size: x-large;
+}
+
+.plans h1 span,.services h1 span{
+  color: red;
+}
+
+
+/***contact***/
+
+
+/* END HOME PAGE */
+
+
+
+
+.container .jumbotron, .container-fluid .jumbotron {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.bgimg{
+  position: relative;
+}
+
+.bottomwave{
+ position:absolute;
+ bottom:0;
+ width: 100%;
+}
+
+.bottomwave img{
+  width:100%;
+}
+.homedes{
+  width:40%;
+  color: #000;
+  position:absolute;
+  top: 30%;
+  left:50%;
+  overflow: hidden;
+  height: 40%;
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+
+.container-fluid{
+  padding: 0;
+  margin-right: 0;
+}
+
+
+/*footer*/
+ /* .panel-footer img{
+  background-color: #951c49;
+  width: 100%;
+  padding-bottom: 80px;
+}
+.panel-footer{
+  margin-top: 0;
+  padding: 0;
+
+}
+
+.panel-footer{
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 0;
+  position: relative;
+}
+
+.share{
+  position: absolute;
+  bottom: 45px;
+} */
+
+
+.panel-footer {
+  position: relative;
+  background: url(../image/footer_background.jpg) no-repeat;
+  background-position: center;
+  background-size: center;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+  height: 250px;
+  margin-top: 0;
+}
+
+.panel-footer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10rem;
+  width: 100%;
+}
+
+.panel-footer .share {
+ 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.panel-footer .share a {
+  color: #fff;
+  border-color: #fff;
+}
+
+.panel-footer .share a:hover {
+  color: #130f40;
+}
+
+.panel-footer .share a::before {
+  background: #fff;
+}
+
+.panel-footer .share a i {
+  padding-right: .5rem;
+}
+
+
+.panel-footer .credit {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  margin-top: 2.5rem;
+}
+
+
+.container{
+  margin-left: 0;
+}
+
+
+/****search bar**/
+
+.searchbar{
+  width: 400px;
+  padding-top: 50px;
+
+}
+.searchbar .form-size{
+  width: 400px;
+}
+
+.searchbar .form-bar{
+  width: 320px;
+} 
+
+
+/********** Large devices only **********/
+ @media (min-width: 1200px) and (max-width:1287){
+   
+  .searchbar{
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 10px;
+  
+  }
+} 
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .box.col-md-5.col-lg-3.col-sm-5.col-xs-11 {
+    width: 41.66666667%;
+    margin-left: -10px;
+}
+  /* Header */
+  #logo-img {
+    background: url('../image/logo.png') no-repeat;
+    width: 100px;
+    height: 100px;
+  
+  }
+
+  .searchbar{
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+
+}
+.searchbar .form-size{
+    width: 400px;
+}
+
+.searchbar .form-bar{
+    width: 320px;
+}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .food-menu-box.col-lg-3.col-sm-5 {
+    width: 41.66666667%;
+    margin-left: 40px;
+  }
+
+  #search_li{
+    margin-top: -60px;
+  }
+
+  .box.col-md-5.col-lg-3.col-sm-5{
+    width: 33.33333333%;
+
+  }
+
+  
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  .food-menu-box.col-lg-3.col-sm-5.col-xs-11
+  {
+    width: 91.66666667%;
+    margin-top: 30px;
+  }
+
+  .box.col-md-5.col-lg-3.col-sm-5.col-xs-11 {
+    width: 91.66666667%;
+}
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  
+  /* End Header */
+  /*FOOTER*/
+  .panel-footer section{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .panel-footer section:nth-last-child(3){
+    margin-bottom: 0; /* margin already exist on the whole row */
+  }
+
+  .panel-footer section hr{
+    width: 5
+    
+    
+    0%;
+  }
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  #menu-tile, #specials-tile,#tips-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+ 
+  /* Home page */
+  #menu-tile, #specials-tile ,#tips-tile{
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12{
+    position:relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;}
+
+}
+
+.company{
+  width: 100%;
+}
+.companydes{
+  width: 100%;
+  float: none;
+}
+
+}
+
+.container .jumbotron{
+
+  padding: 0;
+}
+
+ /* End Header */
